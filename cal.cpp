@@ -16,10 +16,12 @@ int main()
                     break;
             case 2: sub();
                     break;
-            case 3: break;
+            case 3: 
+                    cout<<"Existing...."<<endl;
+                    break;
             default : 
                 cout<<"Invalid input. plz try again"<<endl;
                 break;
         }
-    }while(ch>0);
+    }while(ch!=3);
 }
