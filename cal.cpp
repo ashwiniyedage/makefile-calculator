@@ -21,5 +21,5 @@ int main()
                 cout<<"Invalid input. plz try again"<<endl;
                 break;
         }
-    }while(ch!=0);
+    }while(ch>0);
 }
