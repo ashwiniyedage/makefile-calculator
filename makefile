@@ -7,5 +7,8 @@ cal.o : cal.cpp
 add.o : add.cpp
 	g++ -c add.cpp
 
+sub.o : sub.cpp
+	g++ -c sub.cpp
+
 clean :
 	rm *.o cal
