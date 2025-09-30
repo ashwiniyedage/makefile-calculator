@@ -1,1 +1,2 @@
 void add();
+void sub();
