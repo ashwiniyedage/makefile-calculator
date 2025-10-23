@@ -12,9 +12,11 @@ int main()
 
         switch(ch)
         {
-            case 1: add();
+            case 1: Addition a_obj;
+                    a_obj.add();
                     break;
-            case 2: sub();
+            case 2: Substraction s_obj;
+                    s_obj.sub();
                     break;
             case 3: 
                     cout<<"Existing...."<<endl;

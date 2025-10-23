@@ -1,7 +1,8 @@
 #include<iostream>
+#include "functions.h"
 using namespace std;
 
-void sub()
+void Substraction::sub()
 {
     int a,b;
     cout<<"Enter value for a and b : "<<endl;

@@ -1,7 +1,8 @@
 #include<iostream>
+#include "functions.h"
 using namespace std;
 
-void add()
+void Addition:: add()
 {
     int a,b;
     cout<<"Enter value for a & b : "<<endl;
